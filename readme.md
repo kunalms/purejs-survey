@@ -1,3 +1,13 @@
+### Steps to Run it locally:
+Make sure you have node installed on your machine before runnin the following commands.
+```
+$ git clone https://github.com/kunalms/purejs-survey.git
+$ cd purejs-survey/
+$ npm start
+```
+
+running the commands mentioned above will start the application at [localhost:8001](localhost:8001)
+
 The goal of this challenge is to build a interface to record user survey.
 
 1. The user opens the page & should be presented with multiple questions & appropriate input fields to record the answers
