@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Survey</title>
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <script type="text/javascript" src="js/updateDom.js"></script>
+    <script type="text/javascript" src="js/fetchQuestion.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body onload="fetchQuestions()">
+<nav class=" fixed-top navbar navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24">
+            <span class="navbar-brand mb-0 h1">Survey form</span>
+        </a>
+    </div>
+</nav>
+<form id="form" class="container gx-5" style="margin-top: 10%" action="javascript:void(0);" onsubmit="hideForm()">
+    <div id="formControls"></div>
+    <div class="col-12 margin-vertical-30">
+        <button class="btn btn-primary" type="submit">Submit form</button>
+    </div>
+</form>
+
+</body>
+</html>
